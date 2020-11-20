@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting.Bracket", "Texting.Bracket\Texting.Bracket.csproj", "{8B67BF74-E0B4-4EF9-B1EC-436670EB63FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting.Test", "Texting.Test\Texting.Test.csproj", "{63D5460E-E5BF-4199-AFD9-16D44931476F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting", "Texting\Texting.csproj", "{CA3FDD34-2262-430E-8549-C32AE2D2C5C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B67BF74-E0B4-4EF9-B1EC-436670EB63FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B67BF74-E0B4-4EF9-B1EC-436670EB63FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B67BF74-E0B4-4EF9-B1EC-436670EB63FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B67BF74-E0B4-4EF9-B1EC-436670EB63FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D5460E-E5BF-4199-AFD9-16D44931476F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D5460E-E5BF-4199-AFD9-16D44931476F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D5460E-E5BF-4199-AFD9-16D44931476F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D5460E-E5BF-4199-AFD9-16D44931476F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3FDD34-2262-430E-8549-C32AE2D2C5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3FDD34-2262-430E-8549-C32AE2D2C5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3FDD34-2262-430E-8549-C32AE2D2C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3FDD34-2262-430E-8549-C32AE2D2C5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
