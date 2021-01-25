@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting", "Texting\Texting.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting.Test", "Texting.Test\Texting.Test.csproj", "{68B2EA29-9202-4730-A1CE-E01EC13BC34D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texting.Enums", "Texting.Enums\Texting.Enums.csproj", "{E4354104-9B8B-44F3-A770-93A8FCF33B68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{68B2EA29-9202-4730-A1CE-E01EC13BC34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B2EA29-9202-4730-A1CE-E01EC13BC34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B2EA29-9202-4730-A1CE-E01EC13BC34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4354104-9B8B-44F3-A770-93A8FCF33B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4354104-9B8B-44F3-A770-93A8FCF33B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4354104-9B8B-44F3-A770-93A8FCF33B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4354104-9B8B-44F3-A770-93A8FCF33B68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

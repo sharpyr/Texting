@@ -3,9 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>0.0.2</PackageVersion>
-    <Title>Texting.Bracket</Title>
-    <Description>Add bracket to string</Description>
-    <PackageTags>String,Chars,Bracket,Parenthesis</PackageTags>
+    <Title>Texting.Enums</Title>
+    <Description>Enums for Texting</Description>
     <Authors>Hoyeung Wong</Authors>
     <Company>Hoyeung Wong</Company>
     <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>

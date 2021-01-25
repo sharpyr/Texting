@@ -1,14 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
-        <PackageVersion>0.0.0</PackageVersion>
-        <Title>Texting</Title>
-        <Authors>Hoyeung Wong</Authors>
-        <Description>string tool</Description>
-        <Company>Hoyeung Wong</Company>
-        <AssemblyVersion>0.0.0</AssemblyVersion>
-        <FileVersion>0.0.0</FileVersion>
-    </PropertyGroup>
-
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.0.2</PackageVersion>
+    <Title>Texting</Title>
+    <Description>String helpers</Description>
+    <PackageTags>String,Chars</PackageTags>
+    <Authors>Hoyeung Wong</Authors>
+    <Company>Hoyeung Wong</Company>
+    <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>0.0.2</AssemblyVersion>
+    <FileVersion>0.0.2</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Texting.Bracket\Texting.Bracket.csproj" />
+    <ProjectReference Include="..\Texting.Enums\Texting.Enums.csproj" />
+  </ItemGroup>
 </Project>
