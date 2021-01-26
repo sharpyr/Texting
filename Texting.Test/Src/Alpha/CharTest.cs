@@ -11,7 +11,7 @@ namespace Texting.Test.Alpha {
       var value = "9quali52ty3";
       var asciiBytes = Encoding.ASCII.GetBytes(value);
       Console.WriteLine(asciiBytes);
-      Console.WriteLine(asciiBytes.DecoVector());
+      Console.WriteLine(asciiBytes.Deco());
     }
   }
 }

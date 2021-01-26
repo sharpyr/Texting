@@ -13,13 +13,15 @@
         <IsPackable>false</IsPackable>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="NUnit" Version="3.12.0" />
+        <PackageReference Include="NUnit" Version="3.13.0" />
         <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
-        <PackageReference Include="Spare.Deco" Version="0.0.4" />
+        <PackageReference Include="Spare" Version="0.0.8" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Texting.Bracket\Texting.Bracket.csproj" />
+      <ProjectReference Include="..\Texting.Enums\Texting.Enums.csproj" />
+      <ProjectReference Include="..\Texting\Texting.csproj" />
     </ItemGroup>
 
 </Project>
