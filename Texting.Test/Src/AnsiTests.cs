@@ -25,8 +25,8 @@ namespace Texting.Test {
   public class AnsiTests {
     [Test]
     public static void SimpleTest() {
-      string input = "1851 1999 1950 1905 2003";
-      string pattern = @"(?<=19)\d{2}\b";
+      var input = "1851 1999 1950 1905 2003";
+      var pattern = @"(?<=19)\d{2}\b";
       var regex = new Regex(pattern);
       foreach (Match match in regex.Matches(input))
         Console.WriteLine(match.Value);
@@ -34,9 +34,9 @@ namespace Texting.Test {
 
     [Test]
     public void AnsiTest() {
-      const string ESC = @"";
-      const string CSI = @"";
-      const string BEL = @"";
+      // const string ESC = @"";
+      // const string CSI = @"";
+      // const string BEL = @"";
       const string ANSI_ALPHA = @"(?:(?:[a-zA-Z\d]*(?:;[-a-zA-Z\d\/#&.:=?%@~_]*)*)?)";
       const string ANSI_BETA = @"(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PR-TZcf-ntqry=><~])";
       const string ANSI_COMBINED = @"[][[\]()#;?]*(?:" + ANSI_ALPHA + "|" + ANSI_BETA + ")";

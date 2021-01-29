@@ -2,9 +2,9 @@
 
 namespace Texting.Charset {
   public static class Charsets {
-    public const string ESC = @"";
-    public const string CSI = @"";
-    public const string BEL = @"";
+    // public const string ESC = @"";
+    // public const string CSI = @"";
+    // public const string BEL = @"";
 
     private const string ANSI_ALPHA = @"(?:(?:[a-zA-Z\d]*(?:;[-a-zA-Z\d\/#&.:=?%@~_]*)*)?)";
     private const string ANSI_BETA = @"(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PR-TZcf-ntqry=><~])";
