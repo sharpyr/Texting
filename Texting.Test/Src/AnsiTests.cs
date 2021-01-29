@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 using NUnit.Framework;
 using Spare.Logger;
 using Texting.Charset;
+using Texting.Lange;
 using Veho.List;
 
 namespace Texting.Test {
@@ -43,7 +44,7 @@ namespace Texting.Test {
       var ansi = new Regex(ANSI_COMBINED);
 
       Candidates.typical.Iterate(x => {
-        $"[{x}] [ansi] ({Charsets.Ansi.IsMatch(x)})".Logger();
+        $"[{x}] [ansi] ({Charsets.Ansi.IsMatch(x)}) [lange/length] ({x.Lange()}/{x.Length}) [cleared] ({x.ClearAnsi()})".Logger();
       });
     }
 

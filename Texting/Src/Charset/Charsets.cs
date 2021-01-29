@@ -15,5 +15,9 @@ namespace Texting.Charset {
     public static readonly Regex Ansi = new Regex(ANSI, RegexOptions.Compiled);
     public static readonly Regex Astral = new Regex(ASTRAL, RegexOptions.Compiled);
     public static readonly Regex Han = new Regex(HAN, RegexOptions.Compiled);
+
+    public static string ClearAnsi(this string text) => Ansi.Replace(text, "");
+    public static string ClearAstral(this string text) => Astral.Replace(text, "");
+    public static string ClearHan(this string text) => Han.Replace(text, "");
   }
 }
