@@ -1,4 +1,5 @@
-﻿using Texting.Indices;
+﻿using System.Text.RegularExpressions;
+using Texting.Indices;
 
 namespace Texting.Slices {
   public static class Slicing {
@@ -35,5 +36,10 @@ namespace Texting.Slices {
     public static (string, string) FarCarve(this string tx, char ch) => tx.Carve(tx.LastIndexOf(ch));
     public static (string, string) Carve(this string tx, string de) => tx.Carve(tx.Loc(de), de.Length);
     public static (string, string) FarCarve(this string tx, string de) => tx.Carve(tx.FarLoc(de), de.Length);
+
+    public static (string, string) Carve(this string tx, Regex reg) {
+      var match = reg.Match(tx);
+      return tx.Carve(match.Index, match.Length);
+    }
   }
 }
