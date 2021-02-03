@@ -4,10 +4,10 @@ using NUnit.Framework;
 using Spare.Logger;
 using Texting.Charset;
 using Texting.Lange;
-using Veho.List;
+using Veho.Vector;
 
 namespace Texting.Test {
-  public static class Candidates {
+  public static partial class  Candidates {
     public static string[] typical = new[] {
       "tora",
       "\u001B[4mcake\u001B[0m",

@@ -30,12 +30,14 @@
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.SimpleTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AnsiTestBeta&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AstralTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.SlicingTest.SimpleTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7a25b82_002Dc21d_002D48f6_002D8e9f_002Dd7c5681a9f18/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AstralTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AstralTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AnsiTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.SlicingTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>

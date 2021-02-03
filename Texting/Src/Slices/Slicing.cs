@@ -39,7 +39,8 @@ namespace Texting.Slices {
 
     public static (string, string) Carve(this string tx, Regex reg) {
       var match = reg.Match(tx);
-      return tx.Carve(match.Index, match.Length);
+      var len = match.Length;
+      return tx.Carve(len > 0 ? match.Index : -1, len);
     }
   }
 }
