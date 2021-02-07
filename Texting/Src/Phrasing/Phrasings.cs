@@ -19,7 +19,7 @@ namespace Texting.Phrasing {
       if (iniLow.Success) ph = iniLow.Value.ToLower();
       else if (capWord.Success) ph = capWord.Value.ToLower();
       while ((capWord = capWord.NextMatch()).Success) ph += de + capWord.Value.ToLower();
-      return ph; // $"{match.Index},{match.Length},{match.Success}".Logger();
+      return ph;
     }
     public static string SnakeToCamel(this string phrase, string de = "") {
       Match m;
