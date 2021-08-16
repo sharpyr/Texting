@@ -1,19 +1,17 @@
 ﻿using NUnit.Framework;
-using Spare.Deco;
-using Spare.Logger;
+using Spare;
 using Texting.Slices;
-using Veho.Entries;
 
 namespace Texting.Test {
   [TestFixture]
   public class StringDequeTest {
-    [Test]
-    public void Test() {
-      const string text = ">>King_Richard_III.William_Shakespeare";
-      text.Carve('.').ToVector().Deco().Logger();
-      text.Carve("III").ToVector().Deco().Logger();
-      text.Carve(">>").ToVector().Deco().Logger();
-    }
+    // [Test]
+    // public void Test() {
+    //   const string text = ">>King_Richard_III.William_Shakespeare";
+    //   text.Carve('.').ToVector().Deco().Logger();
+    //   text.Carve("III").ToVector().Deco().Logger();
+    //   text.Carve(">>").ToVector().Deco().Logger();
+    // }
     [Test]
     public void PushPopTest() {
       var text = "1 + 2";

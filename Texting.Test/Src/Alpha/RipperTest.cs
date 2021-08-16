@@ -2,8 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using NUnit.Framework;
-using Spare.Deco;
-using Spare.Logger;
+using Spare;
 using Texting.Phrasing;
 using Texting.Presets;
 

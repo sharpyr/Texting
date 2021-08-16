@@ -1,9 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 using NUnit.Framework;
-using Spare.Deco;
-using Spare.Logger;
+using Spare;
 using Texting.Slices;
-using Veho.Entries;
+using Veho;
 using Veho.Vector;
 
 namespace Texting.Test {

@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 using NUnit.Framework;
-using Spare.Deco;
+using Spare;
 
 namespace Texting.Test.Alpha {
   [TestFixture]

@@ -2,9 +2,12 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\hoyeu\.nuget\packages\spare.logger\0.0.8\lib\netstandard2.0\Spare.Logger.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2a578dee_002D443d_002D4158_002D8ec6_002D743c9e6f6ddd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MyFirstTheory" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2a578dee_002D443d_002D4158_002D8ec6_002D743c9e6f6ddd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MyFirstTheory" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::69079391-E933-4865-AC41-B46C4BB1D14A::.NETStandard,Version=v2.1::Texting.Testing.XTests.MyFirstTheory&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest.JoinerTest1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest.JoinerTestAlpha&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cd4f5b6e_002D7d16_002D4840_002Da0b4_002D93ff7f242964/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -35,7 +38,7 @@
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest.CamelToSnakeTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7a25b82_002Dc21d_002D48f6_002D8e9f_002Dd7c5681a9f18/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AstralTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7a25b82_002Dc21d_002D48f6_002D8e9f_002Dd7c5681a9f18/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AstralTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AstralTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AnsiTest&lt;/TestId&gt;&#xD;
@@ -43,6 +46,7 @@
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest.Test&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest.CamelToSnakeTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest.JoinerTest1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>
