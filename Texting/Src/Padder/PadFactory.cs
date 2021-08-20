@@ -1,7 +1,7 @@
 ﻿using System;
 using Texting.Charset;
 using Texting.Lange;
-using Typen.Numeral;
+using Typen;
 
 namespace Texting.Padder {
   public static class PadFactory {
