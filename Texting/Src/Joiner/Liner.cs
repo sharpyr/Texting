@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using Texting.Bracket;
 using Texting.Enums;
@@ -8,18 +9,18 @@ using static Texting.Enums.Strings;
 
 namespace Texting.Joiner {
   public static class Joiners {
-    public static string Join(this string[] words, string delim) {
-      var hi = words.Length;
+    public static string Join(this IReadOnlyList<string> words, string delim) {
+      var hi = words.Count;
       if (hi == 0) return "";
       var phrase = words[0];
       for (var i = 1; i < hi; i++) phrase += delim + words[i];
       return phrase;
     }
-    public static string JoinLines(this string[] lines, string delim = ",", byte level = 0) {
+    public static string JoinLines(this IReadOnlyList<string> lines, string delim = ",", byte level = 0) {
       var ind = level > 0 ? Ch.SP.Repeat(level << 1) : "";
       return $"{ind + TB}{lines.Join(delim + LF + ind + TB)}{delim}";
     }
-    public static string JoinLinesEdged(this string[] lines, string delim = ",", int level = 0) {
+    public static string JoinLinesEdged(this IReadOnlyList<string> lines, string delim = ",", int level = 0) {
       var ind = level > 0 ? Ch.SP.Repeat(level << 1) : "";
       return $"{LF + ind + TB}{lines.Join(delim + LF + ind + TB)}{delim + LF + ind}";
     }
@@ -28,7 +29,7 @@ namespace Texting.Joiner {
     public static readonly Regex COMMA = new Regex(",", RegexOptions.Compiled);
 
     public static string ContingentLines(
-      this string[] lines,
+      this IReadOnlyList<string> lines,
       string delim = LF,
       byte level = 0,
       Brac brac = Brac.NAN
