@@ -3,20 +3,18 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using NUnit.Framework;
 using Spare;
-using Texting.Phrasing;
-using Texting.Presets;
 
 namespace Texting.Test.Alpha {
   public static class Candidates {
     public static Dictionary<string, string> Testables = new Dictionary<string, string> {
-      {"onlyDash", "-._"},
-      {"wsjSnake", "THE_WALL_STREET_JOURNAL"},
-      {"nytPascal", "NewYorkTimesFW_2ND"},
-      {"dorian", "theHurricaneDorianNE1passes"},
-      {"initials", "A-B-C.BETA"},
-      {"jdwKebab", "janes-defense-weekly"},
-      {"cp2077", "THE_CYBER-PUNK.2077 cdpr"},
-      {"dior", "ChristianDiorSS21"},
+      { "onlyDash", "-._" },
+      { "wsjSnake", "THE_WALL_STREET_JOURNAL" },
+      { "nytPascal", "NewYorkTimesFW_2ND" },
+      { "dorian", "theHurricaneDorianNE1passes" },
+      { "initials", "A-B-C.BETA" },
+      { "jdwKebab", "janes-defense-weekly" },
+      { "cp2077", "THE_CYBER-PUNK.2077 cdpr" },
+      { "dior", "ChristianDiorSS21" },
     };
   }
 
@@ -32,7 +30,7 @@ namespace Texting.Test.Alpha {
         "foo.barZen10th-2022.pdf",
         "https://www.foo-bar.com/main?format=json&slice=20",
       };
-      var regex = new Regex(Phrasings.LITERAL);
+      var regex = new Regex(Phrasing.LITERAL);
       foreach (var candidate in candidates) {
         regex.Matches(candidate).OfType<Match>().ToArray().Deco().Logger();
         // .ToString().Logger();

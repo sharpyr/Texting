@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using Spare;
-using Texting.Slices;
 
 namespace Texting.Test {
   [TestFixture]

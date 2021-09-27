@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using Spare;
-using Texting.Value;
 using Veho.Vector;
 
 namespace Texting.Test {

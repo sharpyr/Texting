@@ -2,8 +2,6 @@
 using System.Text.RegularExpressions;
 using NUnit.Framework;
 using Spare;
-using Texting.Charset;
-using Texting.Lange;
 using Veho.Vector;
 
 namespace Texting.Test {

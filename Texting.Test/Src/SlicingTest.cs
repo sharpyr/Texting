@@ -1,7 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 using NUnit.Framework;
 using Spare;
-using Texting.Slices;
 using Veho;
 using Veho.Vector;
 
