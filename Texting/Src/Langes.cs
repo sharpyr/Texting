@@ -1,7 +1,6 @@
 ﻿using System;
-using Texting.Charset;
 
-namespace Texting.Lange {
+namespace Texting {
   public static class Langes {
     public static int Lange(this string tx) => tx.ClearAnsi().ClearAstral().Length;
 

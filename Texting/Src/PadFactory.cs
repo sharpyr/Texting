@@ -1,9 +1,7 @@
 ﻿using System;
-using Texting.Charset;
-using Texting.Lange;
 using Typen;
 
-namespace Texting.Padder {
+namespace Texting {
   public static class PadFactory {
     public static int AnsiPadLen(this string tx, int pd) => tx.HasAnsi() ? tx.Length + pd - tx.Lange() : pd;
 

@@ -1,7 +1,6 @@
 ﻿using System.Text.RegularExpressions;
-using Texting.Indices;
 
-namespace Texting.Slices {
+namespace Texting {
   public static class Slicing {
     public static string Slice(this string tx, int lo) => lo >= 0
       ? tx.Substring(lo, tx.Length - lo)

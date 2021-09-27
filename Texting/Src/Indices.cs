@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Texting.Indices {
+namespace Texting {
   public static class Indices {
     public static int Loc(this string tx, string de) => tx.IndexOf(de, StringComparison.Ordinal);
     public static int FarLoc(this string tx, string de) => tx.LastIndexOf(de, StringComparison.Ordinal);

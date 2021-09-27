@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using Texting.Presets;
 
-namespace Texting.Phrasing {
-  public static class Phrasing {
-    public static Regex IniLow = new Regex(Phrasings.INILOW);
-    public static Regex CapWord = new Regex(Phrasings.CAPWORD);
-    public static Regex Word = new Regex(Phrasings.WORD);
+namespace Texting {
+  public static partial class Phrasing {
+    public static Regex IniLow = new Regex(Phrasing.INILOW);
+    public static Regex CapWord = new Regex(Phrasing.CAPWORD);
+    public static Regex Word = new Regex(Phrasing.WORD);
     public static string Capitalize(this string s) {
       if (string.IsNullOrEmpty(s)) throw new ArgumentException("There is no first letter");
       var chars = s.ToCharArray();

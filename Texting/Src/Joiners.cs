@@ -4,10 +4,9 @@ using System.Text.RegularExpressions;
 using Texting.Bracket;
 using Texting.Enums;
 using Ch = Texting.Enums.Chars;
-using Texting.Repeat;
 using static Texting.Enums.Strings;
 
-namespace Texting.Joiner {
+namespace Texting {
   public static class Joiners {
     public static string Join(this IReadOnlyList<string> words, string delim) {
       var hi = words.Count;

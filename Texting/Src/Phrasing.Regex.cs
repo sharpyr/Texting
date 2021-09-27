@@ -1,5 +1,5 @@
-﻿namespace Texting.Presets {
-  public static class Phrasings {
+﻿namespace Texting {
+  public static partial class Phrasing {
     public const string INIWORD = @"[A-Za-z\d]+";
     public const string INILOW = @"^[a-z]+";
     public const string CAMEL = @"[A-Z]+|[0-9]+";

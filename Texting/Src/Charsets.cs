@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Texting.Charset {
+namespace Texting {
   public static class Charsets {
     // public const string ESC = @"";
     // public const string CSI = @"";

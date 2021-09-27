@@ -1,6 +1,4 @@
-using Texting.Slices;
-
-namespace Texting.Value {
+namespace Texting {
   public static class Values {
     public static int V1(this string word) => (word.ToLower()[0] & 0x7f) << 21;
     public static int V2(this string word) => (((word = word.ToLower())[0] & 0x7f) << 21) +
