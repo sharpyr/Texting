@@ -10,7 +10,7 @@ namespace Texting.Test {
       var word = "shakes";
       Console.WriteLine(Brackets.Bracket(word));
       Assert.Pass();
-      Assert.True(true);
+      // Assert.True(true);
     }
   }
 }

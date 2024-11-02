@@ -1,13 +1,13 @@
 
 ![Banner](https://raw.githubusercontent.com/sharpyr/Texting/refs/heads/master/media/texting-banner.svg)
 
-Color space tools
+String helper
 
 [![Version](https://img.shields.io/nuget/vpre/Texting.svg)](https://www.nuget.org/packages/Texting)
 [![Downloads](https://img.shields.io/nuget/dt/Texting.svg)](https://www.nuget.org/packages/Texting)
 [![Dependent Libraries](https://img.shields.io/librariesio/dependents/nuget/Texting.svg?label=dependent%20libraries)](https://libraries.io/nuget/Texting)
 [![Language](https://img.shields.io/badge/language-C%23-blueviolet.svg)](https://dotnet.microsoft.com/learn/csharp)
-[![Compatibility](https://img.shields.io/badge/compatibility-.NET%20Framework%204.7.2%2B%20%7C%20.NET%20Standard%202.0-blue.svg)]()
+[![Compatibility](https://img.shields.io/badge/compatibility-.NET%20Standard%202.0-blue.svg)]()
 [![License](https://img.shields.io/github/license/sharpyr/Texting.svg)](https://github.com/sharpyr/Texting/LICENSE)
 
 ## What is Texting?
