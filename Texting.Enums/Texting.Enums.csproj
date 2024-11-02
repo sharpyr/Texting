@@ -12,5 +12,9 @@
     <AssemblyVersion>0.1.5</AssemblyVersion>
     <FileVersion>0.1.5</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>texting-avatar.png</PackageIcon>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\media\texting-avatar.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
 </Project>
