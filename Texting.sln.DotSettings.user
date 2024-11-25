@@ -1,4 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F98514e314f1feddb3082dbe8507ecec1a81b6491c0db7dc53c2e8c13949e4360_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\hoyeu\.nuget\packages\spare.logger\0.0.8\lib\netstandard2.0\Spare.Logger.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
@@ -10,16 +11,7 @@
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cd4f5b6e_002D7d16_002D4840_002Da0b4_002D93ff7f242964/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.CharTest.SomeTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::86769930-D1B8-4AC9-A844-39112A0EE5A6::.NETFramework,Version=v4.7.2::Texting.Testable.Tests.Test1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringDequeTest.Test&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringValueTests.StringValueTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.Test&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ecd1314a_002Da51f_002D4801_002Da845_002Daa3ffb201a6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CoreTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ada48ee5_002Dfdbe_002D4829_002D9a41_002D114a695f5d57/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SomeTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.CharTest.SomeTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Tests.TestAlpha&lt;/TestId&gt;&#xD;
@@ -39,9 +31,49 @@
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.CalculatorTest.RipperTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.CalculatorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.XlAddrTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.XlAddrTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7a25b82_002Dc21d_002D48f6_002D8e9f_002Dd7c5681a9f18/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AstralTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cd4f5b6e_002D7d16_002D4840_002Da0b4_002D93ff7f242964/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.CharTest.SomeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::86769930-D1B8-4AC9-A844-39112A0EE5A6::.NETFramework,Version=v4.7.2::Texting.Testable.Tests.Test1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringDequeTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringValueTests.StringValueTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ecd1314a_002Da51f_002D4801_002Da845_002Daa3ffb201a6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CoreTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.CharTest.SomeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Tests.TestAlpha&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringDequeTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringDequeTest.PushPopTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringDequeTest.ShiftUnshiftTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringDequeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.StringValueTests.StringValueTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AnsiTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.SimpleTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AnsiTestBeta&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AstralTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.SlicingTest.SimpleTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest.CamelToSnakeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.CalculatorTest.RipperTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.RipperTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.CalculatorTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.JoinerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.XlAddrTest.Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.XlAddrTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.DepriveBracketTest.Test2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.XlAddrRCTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.DepriveBracketTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f7a25b82_002Dc21d_002D48f6_002D8e9f_002Dd7c5681a9f18/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AstralTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AstralTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.AnsiTest&lt;/TestId&gt;&#xD;
@@ -53,6 +85,8 @@
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.CalculatorTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Alpha.CharTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.Tests.TestAlpha&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.AnsiTests.SimpleTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::68B2EA29-9202-4730-A1CE-E01EC13BC34D::.NETFramework,Version=v4.7.2::Texting.Test.XlAddrTest.Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>
